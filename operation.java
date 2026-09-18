@@ -30,5 +30,6 @@ class Main{
         obj.diff(a, b);
         obj.mul(a, b);
         obj.divide(a,b);
+        s1.close();
     }
 }

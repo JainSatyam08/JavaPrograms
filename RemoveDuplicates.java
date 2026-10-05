@@ -4,8 +4,11 @@ public class RemoveDuplicates {
 
     public static Set<String> removeDuplicates(List<String> names) {
         // Write your code
-        Set<String> uniqueNames = new HashSet<>();
-        uniqueNames.addAll(names);
+        Set<String> uniqueNames = new HashSet<>(names);
+        //uniqueNames.addAll(names);
+        // for(String name:names){
+        //     uniqueNames.add(name);
+        // }
         return uniqueNames;
     }
 
